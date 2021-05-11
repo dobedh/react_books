@@ -29,6 +29,7 @@ class Home extends React.Component {
           title={book.title}
           image={book.imageLink}
           year={book.year}
+          pages={book.pages}
         />
       );
     });
